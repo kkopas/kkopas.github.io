@@ -7,3 +7,55 @@ p
 {
     font-weight: 300;
 }
+
+.heading
+{
+    font-family: 'Sacramento', sans-serif;
+    font-size:5em;
+}
+
+.gradient
+{ 
+    background: linear-gradient(to bottom, transparent, white);
+}
+
+.dark-gradient
+{ 
+    background: linear-gradient(to bottom, black, transparent);
+}
+
+.blacklink
+{
+    color: rgb(51,51,51);
+}
+
+.blacklink:hover
+{
+    color: #000000;
+}
+
+@media only screen and (min-width : 617px)
+{
+    .swash
+    {
+        font-size:4em;
+    }
+}
+
+@media only screen and (max-width : 617px) and (min-width : 453px)
+{
+    .swash
+    {
+        font-size:4em;
+        width:100px;
+    }
+}
+
+@media only screen and (max-width : 452px)
+{
+    .swash
+    {
+        font-size:3em;
+        width:100px;
+    }
+}
