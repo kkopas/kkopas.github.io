@@ -23,6 +23,14 @@
   <!-- custom files -->
   <link rel="stylesheet" href="/css/main.css">
 
+  <script type='text/javascript'>
+jQuery(document).ready(function($) {
+        $(".scroll").click(function(event){     
+                    event.preventDefault();
+                            $('html,body').animate({scrollTop:$(this.hash).offset().top-100}, 1000);
+                                });
+});
+  </script>
 </head>
 
 
@@ -44,14 +52,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand dark-gradient" href="#top">Kopas Rural Crafts</a>
+      <a class="navbar-brand dark-gradient scroll" href="#top">Kopas Rural Crafts</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="#products">Products</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <!--<li><a href="#purchase">Purchase</a></li> -->
-        <li><a href="#contact">Contact</a></li>
+        <li><a class='scroll' href="#products">Products</a></li>
+        <li><a class='scroll' href="#gallery">Gallery</a></li>
+        <!--<li><a class='scroll' href="#purchase">Purchase</a></li> -->
+        <li><a class='scroll' href="#contact">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <!-- TODO change these -->
@@ -98,12 +106,12 @@
     <br>
  </div>
   <div class="row" style="text-align:center; line-height:130%;">
-    <a href="#galleryLeather" class="blacklink"><div class="col-sm-4">
+    <div class="col-sm-4">
         <h3> Leatherwork </h3>
         <img class="img-circle" src="assets/chinks.jpg" height="300">
     </div></a>
-    <a href="#galleryMetal" class="blacklink"><div class="col-sm-4">
-        <h3> Metalwork </h3>        
+   <div class="col-sm-4">
+        <h3> Metalwork </h3>
         <img class="img-circle" src="assets/camera.jpg" height="300">
     </div></a>
     <a href="#galleryWood" class="blacklink"><div class="col-sm-4">
@@ -115,25 +123,110 @@
 <!-- Gallery -->
  <div class="container" 
     style="padding:15px; margin:auto; display:block; border-bottom: 1px solid #ccc;"> 
- <h1 class="heading" id="gallery" style="margin-top:50px; padding-bottom:20px; border-bottom: 1px solid #ccc;">
-    Gallery</h1>
-  <br>
   <div class="row" style="text-align:center;" id="galleryLeather">   
     <div class="col-sm-12">
       <img src="assets/flourish-left.png" class="swash">
-      <span class="heading swash" style="display:inline; padding:10px;">
-         Leather</span>
+      <span id="gallery" class="heading swash" style="display:inline; padding:10px;">
+         Gallery</span>
       <img src="assets/flourish-right.png" class="swash">
     </div>
   </div>
   <div class="row" style="text-align:center; line-height:130%;">
         
     <div class="col-sm-4">
-        <img class="img-responsive" src="/leather/chinks.jpg" style="padding-top:20px">
+        <img class="img-responsive" src="/leather/IMG_1026.jpg" style="padding-top:20px">
     </div> 
         
     <div class="col-sm-4">
-        <img class="img-responsive" src="/leather/macro-leather.jpg" style="padding-top:20px">
+        <img class="img-responsive" src="/leather/IMG_1029.jpg" style="padding-top:20px">
+    </div> 
+        
+    <div class="col-sm-4">
+        <img class="img-responsive" src="/leather/IMG_1031.jpg" style="padding-top:20px">
+    </div> 
+        
+    <div class="col-sm-4">
+        <img class="img-responsive" src="/leather/IMG_9116.jpg" style="padding-top:20px">
+    </div> 
+        
+    <div class="col-sm-4">
+        <img class="img-responsive" src="/leather/IMG_9128.jpg" style="padding-top:20px">
+    </div> 
+        
+    <div class="col-sm-4">
+        <img class="img-responsive" src="/leather/IMG_9130.jpg" style="padding-top:20px">
+    </div> 
+        
+    <div class="col-sm-4">
+        <img class="img-responsive" src="/leather/IMG_9139.jpg" style="padding-top:20px">
+    </div> 
+        
+    <div class="col-sm-4">
+        <img class="img-responsive" src="/leather/IMG_9144.jpg" style="padding-top:20px">
+    </div> 
+        
+    <div class="col-sm-4">
+        <img class="img-responsive" src="/leather/IMG_9145.jpg" style="padding-top:20px">
+    </div> 
+        
+    <div class="col-sm-4">
+        <img class="img-responsive" src="/leather/IMG_9146.jpg" style="padding-top:20px">
+    </div> 
+        
+    <div class="col-sm-4">
+        <img class="img-responsive" src="/leather/IMG_9147.jpg" style="padding-top:20px">
+    </div> 
+        
+    <div class="col-sm-4">
+        <img class="img-responsive" src="/leather/IMG_9149.jpg" style="padding-top:20px">
+    </div> 
+        
+    <div class="col-sm-4">
+        <img class="img-responsive" src="/leather/IMG_9150.jpg" style="padding-top:20px">
+    </div> 
+        
+    <div class="col-sm-4">
+        <img class="img-responsive" src="/leather/IMG_9154.jpg" style="padding-top:20px">
+    </div> 
+        
+    <div class="col-sm-4">
+        <img class="img-responsive" src="/leather/IMG_9155.jpg" style="padding-top:20px">
+    </div> 
+        
+    <div class="col-sm-4">
+        <img class="img-responsive" src="/leather/IMG_9156.jpg" style="padding-top:20px">
+    </div> 
+        
+    <div class="col-sm-4">
+        <img class="img-responsive" src="/leather/IMG_9160.jpg" style="padding-top:20px">
+    </div> 
+        
+    <div class="col-sm-4">
+        <img class="img-responsive" src="/leather/IMG_9167.jpg" style="padding-top:20px">
+    </div> 
+        
+    <div class="col-sm-4">
+        <img class="img-responsive" src="/leather/IMG_9171.jpg" style="padding-top:20px">
+    </div> 
+        
+    <div class="col-sm-4">
+        <img class="img-responsive" src="/leather/IMG_9174.jpg" style="padding-top:20px">
+    </div> 
+        
+    <div class="col-sm-4">
+        <img class="img-responsive" src="/leather/IMG_9175.jpg" style="padding-top:20px">
+    </div> 
+        
+    <div class="col-sm-4">
+        <img class="img-responsive" src="/leather/IMG_9176.jpg" style="padding-top:20px">
+    </div> 
+        
+    <div class="col-sm-4">
+        <img class="img-responsive" src="/leather/IMG_9177.jpg" style="padding-top:20px">
+    </div> 
+        
+    <div class="col-sm-4">
+        <img class="img-responsive" src="/leather/IMG_9178.jpg" style="padding-top:20px">
     </div> 
         
     <div class="col-sm-4">
@@ -141,55 +234,9 @@
     </div> 
     
   </div>
-
-  <div class="row" style="text-align:center;" id="galleryMetal">   
-    <div class="col-sm-12">
-      <img src="assets/flourish-left.png" class="swash">
-      <span class="heading swash" style="display:inline; padding:10px;">
-         Metal</span>
-      <img src="assets/flourish-right.png" class="swash">
-    </div>
-  </div>
-  <div class="row" style="text-align:center; line-height:130%;">
-    
-  </div>
- 
-  <div class="row" style="text-align:center;" id="galleryWood">   
-    <div class="col-sm-12">
-      <img src="assets/flourish-left.png" class="swash">
-      <span class="heading swash" style="display:inline; padding:10px;">
-         Wood</span>
-      <img src="assets/flourish-right.png" class="swash">
-    </div>
-  </div>
-  <div class="row" style="text-align:center; line-height:130%;">
-        
-    <div class="col-sm-4">
-        <img class="img-responsive" src="/wood/11085174_414480055390025_.jpg" style="padding-top:20px">
-    </div> 
-        
-    <div class="col-sm-4">
-        <img class="img-responsive" src="/wood/buggy.jpg" style="padding-top:20px">
-    </div> 
-        
-    <div class="col-sm-4">
-        <img class="img-responsive" src="/wood/camera.jpg" style="padding-top:20px">
-    </div> 
-        
-    <div class="col-sm-4">
-        <img class="img-responsive" src="/wood/fence-banner.jpg" style="padding-top:20px">
-    </div> 
-        
-    <div class="col-sm-4">
-        <img class="img-responsive" src="/wood/fence.jpg" style="padding-top:20px">
-    </div> 
-    
-  </div>
-
-  </div>
+ </div>
 
     <br>
- </div>
 </div>
 
 
