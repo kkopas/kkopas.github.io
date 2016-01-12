@@ -86,7 +86,7 @@ jQuery(document).ready(function($) {
 
 
 
-    <div class="container" style="font-family: 'sans serif';">
+    <div class="container" style="font-family: 'sans serif'; position:relative; z-index:8; margin-bottom:-90px;">
 
 <!-- Products -->
  <div class="container" 
@@ -99,7 +99,7 @@ jQuery(document).ready(function($) {
     be sure to find something that catches your eye. Our products
     will be available from online retailers soon, however if you 
     would like to make an inquiry or a purchase presently, please
-    don't hesitate to <a href="#contact">contact us</a>. Also, if you have an idea 
+    don't hesitate to <a class='scroll' href="#contact">contact us</a>. Also, if you have an idea 
     and are looking for someone to help bring it to life we may be
     able to help!
   </p> 
@@ -228,15 +228,39 @@ jQuery(document).ready(function($) {
     <div class="col-sm-4">
         <img class="img-responsive" src="/leather/IMG_9178.jpg" style="padding-top:20px">
     </div> 
-        
-    <div class="col-sm-4">
-        <img class="img-responsive" src="/leather/wallet.jpg" style="padding-top:20px">
-    </div> 
     
   </div>
  </div>
 
     <br>
+
+<!-- Contact -->
+  <div class="container" 
+      style="padding:15px; margin:auto; display:block;">
+    <div class="row" style="text-align:center;" id="galleryLeather">   
+      <div class="col-sm-12">
+        <img src="assets/flourish-left.png" class="swash">
+        <span id="contact" class="heading swash" style="display:inline; padding:10px;">
+           Contact</span>
+        <img src="assets/flourish-right.png" class="swash">
+      </div>
+    </div>
+    <div class="row">
+        <p style="text-align:center;">
+        <br>
+          If you have any questions, ideas, or would like to make a purchase, please don't hesitate to contact us
+          <br>
+          <a href="mailto:kopask@uleth.ca?Subject=I%20saw%20your%20KRC%20products%20and%20I%20LOVED%20them" target="_top"
+              class='email blacklink'
+              style="font-weight:600;">
+              here</a>
+          <br>
+          By purchasing our products you are investing in a one of a kind handmade good. <br>These products are of the
+          highest quality craftmanship and made with the utmost care.<br> Great for gifts or adding a touch of personal
+          flair to make yourself stand out amongst the crowd.
+        </p>
+    </div>
+  </div>
 </div>
 
 
@@ -246,7 +270,11 @@ jQuery(document).ready(function($) {
 
 
 
-    <footer class="site-footer">
+    <footer class="site-footer"
+    style="background-image: url(/assets/leather.jpg);
+           background-repeat:no-repeat;
+           background-size: 100%;">
+<div class="gradient-reverse" style="padding-bottom:0px;margin-bottom:0px;height:200px;">
 
 
 

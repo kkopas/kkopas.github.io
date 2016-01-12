@@ -14,9 +14,19 @@ p
     font-size:5em;
 }
 
+.email
+{
+    font-family: 'Poiret One', sans-serif;
+    font-size: 1.5em;
+}
+
 .gradient
 { 
     background: linear-gradient(to bottom, transparent, white);
+}
+
+.gradient-reverse{
+    background: linear-gradient(to top, transparent, white);
 }
 
 .dark-gradient
