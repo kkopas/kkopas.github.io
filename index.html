@@ -24,11 +24,14 @@
   <link rel="stylesheet" href="/css/main.css">
 
   <script type='text/javascript'>
-jQuery(document).ready(function($) {
-        $(".scroll").click(function(event){     
-                    event.preventDefault();
-                            $('html,body').animate({scrollTop:$(this.hash).offset().top-100}, 1000);
-                                });
+//jQuery(document).ready(function($) {
+//        $(".scroll").click(function(event){     
+//                    event.preventDefault();
+//                            $('html,body').animate({scrollTop:$(this.hash).offset().top-100}, 1000, 'linear');
+//                                });
+//});
+$(window).on("hashchange", function () {
+        window.scrollTo(window.scrollX, window.scrollY - 100);
 });
   </script>
 </head>
@@ -170,23 +173,11 @@ jQuery(document).ready(function($) {
     </div> 
         
     <div class="col-sm-4">
-        <img class="img-responsive" src="/leather/IMG_9146.jpg" style="padding-top:20px">
-    </div> 
-        
-    <div class="col-sm-4">
-        <img class="img-responsive" src="/leather/IMG_9147.jpg" style="padding-top:20px">
-    </div> 
-        
-    <div class="col-sm-4">
         <img class="img-responsive" src="/leather/IMG_9149.jpg" style="padding-top:20px">
     </div> 
         
     <div class="col-sm-4">
         <img class="img-responsive" src="/leather/IMG_9150.jpg" style="padding-top:20px">
-    </div> 
-        
-    <div class="col-sm-4">
-        <img class="img-responsive" src="/leather/IMG_9154.jpg" style="padding-top:20px">
     </div> 
         
     <div class="col-sm-4">
